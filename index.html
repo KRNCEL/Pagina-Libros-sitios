@@ -24,6 +24,14 @@
         .portada { width: 150px; height: 225px; border: 1px solid #3B2822; }
         .portada:hover { border: 3px solid #7A4236; }
         p { line-height: 1.5; }
+        /* RECOMENDACIÓN DEL MES */
+        .recomendacion { border: 2px solid #9DC4E8; border-radius: 20px; padding: 25px; margin: 40px 0 20px 0; text-align: center; }
+        .recomendacion h2 { margin-top: 0; }
+        .recomendacion p { text-align: left; }
+        .destacado { color: #7A4236; font-weight: bold; background-color: #9DC4E8; padding: 1px 6px; border-radius: 4px; text-decoration: none; }
+        .destacado:hover { text-decoration: underline; }
+        .puntaje { text-align: center !important; font-size: 18px; }
+        .video { width: 100%; max-width: 480px; aspect-ratio: 16 / 9; border: 2px solid #7A4236; border-radius: 10px; }
     </style>
 </head>
 <body>
@@ -71,6 +79,13 @@
             </td>
         </tr>
     </table>
+
+    <section class="recomendacion">
+        <h2>Recomendación del mes</h2>
+        <p>Te recomendamos <a class="destacado" href="https://editorialuniversitariauanl.publica.la/library/publication/popurri-1771277726" target="_blank">Popurrí</a> porque es una obra que desafía lo que debe ser un poema al utilizar material de la cultura pop y un tono humorístico en su juego. Esta es una lectura libre de prejuicios donde conceptos filosóficos, personajes históricos y chistes de la actualidad conviven en la misma página.</p>
+        <p class="puntaje">Calificación: <b>10/10</b></p>
+        <iframe class="video" src="https://www.youtube-nocookie.com/embed/v8JUsRYLdVY" title="Popurrí - video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
 
 </main>
 </body>
