@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>El estante común</title>
     <style>
-        /* PALETA DE COLORES
-           #7A4236  Terracota      = títulos
-           #3B2822  Café espresso  = nombre de la página y texto
-           #F7F1E5  Crema cálido   = fondo de la página
-           #9DC4E8  Azul cielo     = secciones (menú)            */
+        /* colores
+           #7A4236 terracota - titulos
+           #3B2822 cafe - texto y nombre de la pagina
+           #F7F1E5 crema - fondo
+           #9DC4E8 azul - menu y recuadros */
         body { background-color: #F7F1E5; color: #3B2822; font-family: Georgia, serif; margin: 0; }
-        .hoja { background-color: #F7F1E5; width: 800px; margin: 0 auto; padding: 20px; }
+        .hoja { width: 800px; margin: 0 auto; padding: 20px; }
         h1 { color: #3B2822; text-align: center; letter-spacing: 4px; margin-bottom: 10px; }
         h2 { color: #7A4236; text-align: center; }
         h3 { color: #7A4236; border-bottom: 2px solid #9DC4E8; padding-bottom: 4px; }
@@ -24,14 +24,13 @@
         .portada { width: 150px; height: 225px; border: 1px solid #3B2822; }
         .portada:hover { border: 3px solid #7A4236; }
         p { line-height: 1.5; }
-        /* RECOMENDACIÓN DEL MES */
-        .recomendacion { border: 2px solid #9DC4E8; border-radius: 20px; padding: 25px; margin: 40px 0 20px 0; text-align: center; }
+        /* recomendacion del mes */
+        .recomendacion { border: 4px solid #9DC4E8; border-radius: 10px; padding: 25px; margin: 40px 0 20px 0; text-align: center; }
         .recomendacion h2 { margin-top: 0; }
         .recomendacion p { text-align: left; }
-        .destacado { color: #7A4236; font-weight: bold; background-color: #9DC4E8; padding: 1px 6px; border-radius: 4px; text-decoration: none; }
-        .destacado:hover { text-decoration: underline; }
-        .puntaje { text-align: center !important; font-size: 18px; }
-        .video { width: 100%; max-width: 480px; aspect-ratio: 16 / 9; border: 2px solid #7A4236; border-radius: 10px; }
+        .destacado { color: #7A4236; font-weight: bold; }
+        .recomendacion .puntaje { text-align: center; font-size: 18px; }
+        .video { max-width: 100%; border: 2px solid #7A4236; border-radius: 10px; }
     </style>
 </head>
 <body>
@@ -79,12 +78,13 @@
             </td>
         </tr>
     </table>
-
+    
+    <h2>Recomendación del mes:</h2>
     <section class="recomendacion">
-        <h2>Recomendación del mes</h2>
-        <p>Te recomendamos <a class="destacado" href="https://editorialuniversitariauanl.publica.la/library/publication/popurri-1771277726" target="_blank">Popurrí</a> porque es una obra que desafía lo que debe ser un poema al utilizar material de la cultura pop y un tono humorístico en su juego. Esta es una lectura libre de prejuicios donde conceptos filosóficos, personajes históricos y chistes de la actualidad conviven en la misma página.</p>
+        <h2> <a class="destacado" href="https://editorialuniversitariauanl.publica.la/library/publication/popurri-1771277726">Popurrí - Julio Mejía III </a></h2>
+        <p>Te recomendamos <a class="destacado" href="https://editorialuniversitariauanl.publica.la/library/publication/popurri-1771277726">Popurrí</a> porque es una obra que desafía lo que debe ser un poema al utilizar material de la cultura pop y un tono humorístico en su juego. Esta es una lectura libre de prejuicios donde conceptos filosóficos, personajes históricos y chistes de la actualidad conviven en la misma página.</p>
         <p class="puntaje">Calificación: <b>10/10</b></p>
-        <iframe class="video" src="https://www.youtube-nocookie.com/embed/v8JUsRYLdVY" title="Popurrí - video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="video" width="480" height="270" src="https://www.youtube-nocookie.com/embed/v8JUsRYLdVY" allowfullscreen></iframe>
     </section>
 
 </main>
