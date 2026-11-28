@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nosotras | El estante común</title>
+    <style>
+        /* PALETA DE COLORES
+           #7A4236  Terracota      = títulos
+           #3B2822  Café espresso  = nombre de la página y texto
+           #F7F1E5  Crema cálido   = fondo de la página
+           #9DC4E8  Azul cielo     = secciones (menú)            */
+        body { background-color: #F7F1E5; color: #3B2822; font-family: Georgia, serif; margin: 0; }
+        .hoja { background-color: #F7F1E5; width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { color: #3B2822; text-align: center; letter-spacing: 4px; margin-bottom: 10px; }
+        h2 { color: #7A4236; text-align: center; }
+        h3 { color: #7A4236; border-bottom: 2px solid #9DC4E8; padding-bottom: 4px; }
+        .menu { text-align: center; background-color: #9DC4E8; border-top: 1px solid #3B2822; border-bottom: 1px solid #3B2822; padding: 8px; }
+        .menu a { color: #3B2822; text-decoration: none; margin: 0 15px; font-family: Arial, sans-serif; font-size: 13px; }
+        .menu a:hover { text-decoration: underline; }
+        td { text-align: center; vertical-align: top; padding: 10px; font-family: Arial, sans-serif; font-size: 13px; }
+        td a { color: #3B2822; text-decoration: none; }
+        a { color: #7A4236; }
+        .portada { width: 150px; height: 225px; border: 1px solid #3B2822; }
+        .portada:hover { border: 3px solid #7A4236; }
+        p { line-height: 1.5; }
+        /* TARJETAS DE "NOSOTRAS" */
+        .subtitulo { text-align: center; margin-top: 0; font-style: italic; }
+        .tarjeta { border: 2px solid #9DC4E8; border-radius: 20px; padding: 25px; margin: 30px 0; }
+        .cargo { font-family: Arial, sans-serif; font-size: 13px; margin: 0; }
+        .tarjeta h3 { margin: 6px 0 12px 0; border-bottom: none; font-size: 22px; padding-bottom: 0; }
+        .frase { font-style: italic; margin: 0 0 15px 0; }
+        .autor-frase { font-style: normal; font-size: 13px; }
+        .comentario { border: 2px solid #9DC4E8; border-radius: 10px; padding: 12px 15px; }
+        .comentario b { color: #7A4236; }
+        .comentario p { margin: 6px 0; }
+    </style>
+</head>
+<body>
+<main class="hoja">
+
+    <h1>EL ESTANTE COMÚN</h1>
+
+    <nav class="menu">
+        <a href="index.html">INICIO</a>
+        <a href="terror.html">TERROR</a>
+        <a href="romance.html">ROMANCE</a>
+        <a href="fantasia.html">FANTASÍA</a>
+        <a href="ciencia-ficcion.html">CIENCIA FICCIÓN</a>
+        <a href="nosotras.html">NOSOTRAS</a>
+    </nav>
+
+    <h2>NUESTRO EQUIPO</h2>
+    <p class="subtitulo">Encargadas: quiénes estamos detrás</p>
+
+    <!-- ===== TARJETA 1 ===== -->
+    <article class="tarjeta">
+        
+            <p class="cargo">Encargada de buscar, recopilar y organizar la información que incluiría la página.</p>
+            <h3>Ana Sofía Sánchez Ramírez</h3>
+            <p class="frase">“Aprender es descubrir lo que ya sabemos. Enseñar es recordar a otros que lo saben tan bien como nosotros. Todos somos aprendices, hacedores, maestros”. <span class="autor-frase">— Stephen King</span></p>
+            <section class="comentario">
+                <b>Comentario</b>
+                <p>A lo largo de la clase de Diseño Web adquirí nuevos conocimientos y habilidades relacionadas con el uso de herramientas digitales y la creación de contenidos para distintos medios. Aprendí sobre la edición de video, desde el manejo de recursos audiovisuales hasta la organización y modificación de elementos para comunicar ideas de manera más atractiva. Asimismo, conocí los procesos para diseñar y crear páginas web, tomando en cuenta aspectos como la estructura, la organización de la información, la creatividad y la experiencia del usuario.</p>
+                <p>Estas actividades me permitieron comprender la importancia del diseño y la comunicación visual en los entornos digitales, así como reconocer las posibilidades que ofrecen las plataformas tecnológicas para desarrollar proyectos creativos. Considero que los conocimientos adquiridos serán útiles tanto en mi formación académica como en mi futuro profesional, especialmente en áreas relacionadas con la edición, la gestión cultural y la difusión de contenidos. En general, la clase representó una oportunidad para experimentar, desarrollar nuevas habilidades y ampliar mi perspectiva sobre las herramientas digitales y su aplicación en distintos proyectos.</p>
+            </section>
+        
+    </article>
+
+    <!-- ===== TARJETA 2 (para la otra integrante) =====
+         Para activarla, borra la línea de arriba que dice "TARJETA 2" y la de abajo que dice "FIN TARJETA 2",
+         y cambia los textos.
+    <article class="tarjeta">
+        
+            <p class="cargo">Encargada de ...</p>
+            <h3>Nombre completo</h3>
+            <p class="frase">“Frase que la caracteriza”. <span class="autor-frase">— Autor</span></p>
+            <section class="comentario">
+                <b>Comentario</b>
+                <p>Escribe aquí el comentario.</p>
+            </section>
+        
+    </article>
+    ===== FIN TARJETA 2 ===== -->
+
+</main>
+</body>
+</html>
